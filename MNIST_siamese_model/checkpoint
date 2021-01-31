@@ -1,0 +1,2 @@
+model_checkpoint_path: "/content/drive/MyDrive/MNIST_ tripless_loss/MNIST_siamese_model/siamese_network_50"
+all_model_checkpoint_paths: "/content/drive/MyDrive/MNIST_ tripless_loss/MNIST_siamese_model/siamese_network_50"
