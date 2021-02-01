@@ -6,3 +6,19 @@ The Triplet Loss minimizes the distance between an anchor and a positive, both o
 maximizes the distance between the anchor and a negative of a different identity. 
 
 <img src="./images/info.png" alt="paper info" width="400"/>
+
+The same CNN is used to get embeddings of the anchor, positive and negative images and then the triplet loss is calculated.
+
+<img src="./images/loss.png" alt="paper info" width="400"/>
+
+For MNIST data, TSNE was used to reduce the dimensionality of embeddings and then the datapoints were projected in low dimensional space.
+
+2D:
+
+<img src="./images/TSNE_2D.png" alt="paper info" width="400"/>
+
+3D:
+
+<img src="./images/TSNE_3D.png" alt="paper info" width="400"/>
+
+
